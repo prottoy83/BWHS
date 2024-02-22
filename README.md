@@ -7,6 +7,7 @@ What this server able to do:
 
 Listen to client requests: YES
 Differ requests: NO
+Open Files from filesystem: NO
 Send Files over network: NO
 Responses based on requests: NO
 
