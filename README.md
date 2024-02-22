@@ -6,8 +6,11 @@ This is a personal project, I am learning and making this server simultaneously.
 What this server can do:
 
 Listen to client requests: YES
-Responses based on requests: Implementation ongoing.
-Open Files from the filesystem: NO
-Send Files over the network: NO
+Responses based on requests: YES
+Open Files from the filesystem: YES
+Send Files over the network: YES
+Secure: NO
+Handles GET Requests: YES (With an exception to blank directory)
+Handles POST Requests: NO
 
 
