@@ -19,7 +19,7 @@ public class reqHandler {
 
             //Handle GET Requests
             if(method.equals("GET")){
-                //if (getFile.equals("")){getFile = "index.html";}  //NOT WORKING FOR NOW 
+                //if (getFile.equals(" ")){getFile = "index.html";}  //NOT WORKING FOR NOW 
                 String response = httpResponses.HTMLResponse(getFile);
                 OutputStream oStr = clSocket.getOutputStream();
                 oStr.write(response.getBytes());
