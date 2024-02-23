@@ -14,12 +14,13 @@ public class reqHandler {
             //Print out the necessary infos
             System.out.printf("\nNEW CONNECTION\n");
             System.out.println(line);
-            System.out.println(getFile.substring(1));
+            System.out.println("FILE TRIG: " + getFile.substring(1));
             
 
             //Handle GET Requests
             if(method.equals("GET")){
-                //if (getFile.equals(" ")){getFile = "index.html";}  //NOT WORKING FOR NOW 
+                if (getFile.equals("/")){getFile = "index.html";}  
+
                 String response = httpResponses.HTMLResponse(getFile);
                 OutputStream oStr = clSocket.getOutputStream();
                 oStr.write(response.getBytes());
