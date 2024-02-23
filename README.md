@@ -12,6 +12,7 @@ Send Files over the network: YES </br>
 Secure: NO </br>
 Handles GET Requests: YES (With an exception to blank directory) </br>
 Handles POST Requests: NO </br>
+Handles Error page: YES </br>
  </br>
 How to use this server? </br>
 -Run Server.java from src/ </br>
