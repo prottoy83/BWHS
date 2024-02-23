@@ -13,4 +13,9 @@ Secure: NO
 Handles GET Requests: YES (With an exception to blank directory)
 Handles POST Requests: NO
 
+How to use this server?
+-Run Server.java from src/
+
+What is htsrc directory?
+-It is where the html,css,javascript etc files are located.
 
