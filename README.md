@@ -6,8 +6,8 @@ This is a personal project, I am learning and making this server simultaneously.
 What this server able to do:
 
 Listen to client requests: YES
-Differ requests: NO
-Open Files from filesystem: NO
+Differ requests: YES
+Open Files from filesystem: 
 Send Files over network: NO
 Responses based on requests: NO
 
